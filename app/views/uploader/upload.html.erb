@@ -1,0 +1,4 @@
+<%= form_tag({:action => :receive}, :multipart => true) do %>
+  <%= file_field_tag 'data' %>
+  <%= submit_tag "Datei Hochladen" %>
+<% end %>
